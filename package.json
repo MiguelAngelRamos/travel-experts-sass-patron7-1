@@ -1,0 +1,15 @@
+{
+  "name": "aplicando-patron-7-1",
+  "version": "1.0.0",
+  "description": "1. Inicializar un proyecto de Node.js (crear el package.json)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Miguel Ramos",
+  "license": "MIT",
+  "dependencies": {
+    "sass": "^1.72.0"
+  }
+}
