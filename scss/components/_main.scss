@@ -1,0 +1,49 @@
+@use '../abstracts/variables' as *;
+
+/* Estilos de galería de images */
+
+.main__section-galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.main__section-galeria-img {
+  margin: 1rem;
+  width: calc(20% - 2rem);
+}
+
+/* Estilos del main del formulario */
+
+.main__section-form {
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.main__section-form-group {
+  margin-bottom: 15px;
+}
+
+.main__section-form-label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.main__section-form-input, .main__section-form-textarea {
+  width:100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.main__section-form-button {
+  background-color: $color-button;
+  color: $color-button-text;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.main__section-form-button:hover {
+  background-color: $color-button-hover;
+}

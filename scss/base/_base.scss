@@ -1,0 +1,15 @@
+@use '../abstracts/variables' as *;
+
+body, .header__title, .main__section-title, .main__section-text, .header__nav, .header__nav-link {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  font-family: $font-family;
+}
+
+.header__title, .main__section-title, .main__section-text {
+  margin-bottom: 1rem;
+}

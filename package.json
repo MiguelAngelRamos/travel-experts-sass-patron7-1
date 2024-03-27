@@ -4,7 +4,7 @@
   "description": "1. Inicializar un proyecto de Node.js (crear el package.json)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "sass --watch scss:css"
   },
   "keywords": [],
   "author": "Miguel Ramos",

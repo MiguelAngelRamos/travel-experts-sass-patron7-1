@@ -1,0 +1,25 @@
+@use '../abstracts/variables' as *;
+
+.header {
+  background-color: $background-color-header;
+  padding: 20px;
+  text-align: center;
+}
+
+.header__nav-link {
+  color: $color-nav-link;
+  margin: 0 10px;
+}
+
+.header__nav-link:hover {
+  color: $color-nav-link-hover;
+}
+
+.header__nav-link::after {
+  content: "|";
+  padding: 0 10px;
+}
+
+.header__nav-link:last-child::after {
+  content: none;
+}

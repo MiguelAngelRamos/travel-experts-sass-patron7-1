@@ -1,0 +1,48 @@
+/* Notebook*/
+@media (max-width: 1200px) {
+  .main__section-galeria-img {
+    margin: 1rem;
+    width: calc(25% - 2rem);
+  }
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+  .main__section-galeria-img {
+    margin: 1rem;
+    width: calc(33.333% - 2rem);
+  }
+}
+
+/* Moviles*/
+@media (max-width: 778px) {
+  .main__section-galeria-img {
+    margin: 1rem;
+    width: calc(50% - 2rem);
+  }
+}
+
+@media (max-width: 576px) {
+  .main__section-galeria-img {
+    margin: 1rem;
+    width: calc(100% - 2rem);
+  }
+
+
+}
+@media (max-width: 369px) {
+
+  .header__nav-link {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  .header__nav-link::after {
+    content: none;
+  }
+  
+  .main {
+    padding: 1rem;
+  }
+
+}
